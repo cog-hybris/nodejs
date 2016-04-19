@@ -1,5 +1,7 @@
 # Node.js Hello World
 
+docker run -p 49160:8080 -d cog-hybris/nodejs-webapp
+
 Node.js Hello World on CentOS using [docker][].
 
 ## Prerequisites
