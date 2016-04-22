@@ -17,5 +17,6 @@ ADD . /src
 # Install app dependencies
 RUN cd /src; npm install
 
-EXPOSE  8080
+EXPOSE  8090
 CMD ["node", "/src/index.js"]
+CMD ["curl", "http://localhost:8090"]
