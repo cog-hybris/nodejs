@@ -20,3 +20,4 @@ RUN cd /src; npm install
 EXPOSE  8090
 CMD ["node", "/src/index.js"]
 CMD ["curl", "http://52.202.52.116:8090"]
+CMD ["curl", "http://localhost:8080"]
