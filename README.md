@@ -26,13 +26,13 @@ Node.js Hello World on CentOS using [docker][].
 -   Build docker image:
 
         make build
-        # docker build -t gasi/centos-node-hello .
+        # docker build -t cog-hybris/nodejs-webapp .
 
 
 -   Run app:
 
         make run-container
-        # docker run -p 49160:8080 -d gasi/centos-node-hello
+        # docker run -p 49160:8080 -d cog-hybris/nodejs-webapp
 
 -   Install `curl`:
 
@@ -44,7 +44,7 @@ Node.js Hello World on CentOS using [docker][].
 
         > # Example
         > ID                  IMAGE                           COMMAND              CREATED             STATUS              PORTS
-        > ecce33b30ebf        gasi/centos-node-hello:latest   node /src/index.js   10 seconds ago      Up 9 seconds        49160->8080
+        > ecce33b30ebf        cog-hybris/nodejs-webapp:latest   node /src/index.js   10 seconds ago      Up 9 seconds        49160->8080
 
 -   Test app using the port in previous step, e.g. 49160:
 
