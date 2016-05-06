@@ -7,7 +7,7 @@ var PORT = process.env.PORT || DEFAULT_PORT;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send(' test  Applicaiton\n');
+  res.send(' test nodejs Applicaiton\n');
 });
 
 app.listen(PORT);
